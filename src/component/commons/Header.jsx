@@ -4,49 +4,29 @@ import React from 'react';
 const Header = () => {
     return(
         <header>
-<navbar className="navbar pt-0 pb-0 navbar-main">
-    <div className="navbar-brand">
-    <div class="navbar-item">
-                    <a href="#">
-                        <img class="logo" src="https://rokysrfid.herokuapp.com/img/LOGO-ROKYS-2017-01.png" alt="Rokys" height="60" />
-                        <span class="separator"></span>
-                    </a>
-                </div>
-    </div>
-                
-        <div class="opciones-container">
-            <div class="user-box">
-                <figure class="avatar">
-                        <img src="https://rokysrfid.herokuapp.com/img/r2d2.png" alt="UserAvatar" height="40" />
-                </figure>
-                <div class="user-container">
-                    <span class="nombre">Francisco Antonio</span>
-                    <span class="rol">Cajero</span>
-                </div>
-            </div>
-            <ul class="notificaciones">
-                <a href="#">
-                    <li class="">
-                        <i class="fa fa-bell"></i>
-                        <span class="badge"></span>
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        <i class="fa fa-envelope"></i>
-                        <span class="badge"></span>
-                    </li>
-                </a>
-                <a href="index">
-                    <li>
-                        <i class="fa fa-power-off"></i>
-                        <span class="badge"></span>
-                    </li>
-                </a>
-            </ul>
-        </div>
-        </navbar>
-    </header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+        </header>
     )
 }
 
